@@ -1,51 +1,36 @@
+/*
+ * <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+ * font-family: 'Montserrat', sans-serif;
+ * 
+ * <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet"> 
+ * font-family: 'Montserrat', sans-serif;
+ *
+ */
+ 
+ /* Random nice colors 
+  *
+  * #363732 - Jet ( black )
+  * #66c3ff - Maya blue ( blue )
+  * #dce1e9 - Grainsboro ( grey )
+  * #50514f - Dark Liver ( black )
+  * #247ba0 - Lapis Lazuli ( blue )
+  * #70c1b3 - Green Sheen ( green )
+  * #f25f5c - Sunset Orange ( red/pink )
+  * #ffe066 - Mustard ( yellow )
+  * #60b2e5 - Blue Jeans ( blue )
+  * #2b303a - Gun metal ( black )
+  * #eee5e9 - Platinum ( white )
+  * #3d5467 - Independence ( dark-blue )
+  * #e0fbfc - Light Cyan ( light-blue )
+  * #98c1d9 - Pale Cerulean ( blue )
+  * #ee6c4d - Light Red Ochre ( orange )
+  */
+
 * {
-  text-decoration: none;
-  font-family: 'IBM Plex Sans', sans-serif;
-  text-align: center;
-
+	
 }
 
 
-body {
-  background-color: #D9D8CB;
-
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-auto-rows: minmax(40px , auto);
-
-  /*May want to change this layout...*/
-  grid-template-areas: 
-  "header header header header header"
-  ".      aside  main   main   ."
-  ".      aside  main   main   ."
-  ".      .      main   main   ."
-  ".      footer footer footer .";
-}
-
-.header {
-  grid-area: header;
-  background-color: #AABBCC;
 
 
-}
 
-.aside {
-  grid-area: aside;
-  background-color: #D0BE74;
-
-}
-
-.main {
-  grid-area: main;
-  background-color: #5D6771;
-
-}
-
-.footer {
-  grid-area: footer;
-  background-color: #534A4D;
-
-}
